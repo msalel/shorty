@@ -72,4 +72,4 @@ def client(app, request):
 
 @pytest.fixture(scope='function')
 def get(client):
-    return humanize_werkzeug_client(client.get)
+    return humanize_werkzeug_client(client.post)

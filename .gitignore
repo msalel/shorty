@@ -82,7 +82,7 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
+# .env removed for testing purposes
 .venv
 env/
 venv/
